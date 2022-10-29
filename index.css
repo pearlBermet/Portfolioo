@@ -3,7 +3,9 @@
     justify-content: space-between;
 }
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-
+html{
+  color: #f3e11e;
+}
 * {
   margin: 20px;
   padding: 10px;
@@ -126,6 +128,28 @@ div {
     margin-top: -250px;
     width: 150px;
   }
+  .fade {
+    opacity: 1;
+    transition: opacity 100s;
+}
 
 
-  }
+.wrapper {
+    text-align: center;
+    padding-right: 20px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    color: #f7ffff;
+}
+.wrapper p{
+    padding-left: 10px;
+    width: 280px;
+    color: #f3e11e;
+}
+
+}
+  
